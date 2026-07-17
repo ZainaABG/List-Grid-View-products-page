@@ -2,6 +2,9 @@
 
 A front-end project that allows users to switch between **List View** and **Grid View** using JavaScript.
 
+## Demo
+https://zainaabg.github.io/List-Grid-View-products-page/
+
 ## Features
 
 * List and Grid layouts

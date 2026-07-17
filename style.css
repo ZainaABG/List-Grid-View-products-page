@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Chelsea+Market&family=Instrument+Serif:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Patua+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Solway:wght@300;400;500;700;800&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: "Instrument Serif", serif;
+    list-style: none;
+    box-sizing:border-box;
+}
+
+
+
+body{
+    background: #F5F5DC;
+    color:black;
+}
+
+.wrapper{
+    width:800px;
+    margin:20px auto;
+}
+
+.links{
+    margin-bottom: 20px;
+    background: #adad85;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.links ul{
+    display: flex;
+    justify-content: center;
+
+}
+
+.links ul li{
+    margin:0 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.links ul li:hover , .links ul li.active{
+color:#3d3d2f;
+
+
+}
+
+.view-item img{
+    width:75px;
+
+}
+
+.view-main{
+    background-color:#adad85;
+    border-radius: 3px;
+    padding: 15px;
+
+}
+
+.list-view .view-item{
+    border:1px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    padding:10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.list-view .view-item:last-child{
+    margin-bottom: 0;
+
+}
+
+.list-view .view-item .vi-left{
+    margin-right:25px;
+}
+
+.view-item .title{
+    font-weight: 600;
+}
+.view-item .content{
+    margin: 5px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 200;
+}
+
+.view-item .btn{
+    width: 125px;
+    background: #F5F5DC;
+    color: black;
+    border-radius: 10px;
+    padding:8px 5px;
+    text-align: center;
+    font-weight: 200;
+    cursor: pointer;
+
+}
+
+.view-item .btn:hover{
+   background-color:#d3c791 ;
+    color:#3d3d2f;
+}
+
+.grid-view{
+    width:100%;
+}
+
+.grid-view .view-item{
+    width:230px;
+    border:1px solid black;
+    border-radius: 15px;
+    padding:25px;
+    text-align: center;
+    margin:10px;
+    display: inline-block;
+}
+
+.grid-view .view-item .vi-left{
+    margin-bottom: 10px;
+
+}
+
+.grid-view .view-item .btn{
+    margin:0 auto;
+}
+
+.grid-view .view-item img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+    
+}
+
+.list-view .view-item img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+}
